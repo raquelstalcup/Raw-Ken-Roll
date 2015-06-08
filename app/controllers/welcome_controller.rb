@@ -1,5 +1,6 @@
 class WelcomeController < ApplicationController
   def home
+  	@guns	= "guns.JPG"
   end
 
   def menu
